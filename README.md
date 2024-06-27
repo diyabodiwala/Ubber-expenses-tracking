@@ -52,8 +52,8 @@ Below we list the different steps and the things carried out in this file:
 - Install <a href="https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/">git-bash for windows</a>, once installed , open **git bash** and download this repository, this will download the **dags** folder and the **docker-compose.yaml** file, and other files needed.
 
 ``` 
-ramse@DESKTOP-K6K6E5A MINGW64 /c
-$ git clone https://github.com/Wittline/uber-expenses-tracking.git
+db@DESKTOP-K9J6E8I BHJI21 /c
+$ git clone https://github.com/diyabodiwala/uber-expenses-tracking.git
 ```
 - Second, create a new User in AWS with *AdministratorAccess** and get your security credentials
 - Go to this url: <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html ">AWS CLI </a> and configure your AWS Credentials in your local machine

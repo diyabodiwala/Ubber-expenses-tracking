@@ -351,20 +351,20 @@ Amazon AWS has an answer to the need of data engineers who love Apache Airflow i
 
 
 ```linux 
-ramse@DESKTOP-K6K6E5A MINGW64 /c
+db@DESKTOP-K9J6E8I BHJI21 /c
 $ cd Uber-expenses-tracking
 
-ramse@DESKTOP-K6K6E5A MINGW64 /c/Uber-expenses-tracking
+db@DESKTOP-K9J6E8I BHJI21 /c/Uber-expenses-tracking
 $ cd code
 ```
 
 ```linux 
-ramse@DESKTOP-K6K6E5A MINGW64 /c/Uber-expenses-tracking/code
+db@DESKTOP-K9J6E8I BHJI21 /c/Uber-expenses-tracking/code
 $ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 ```
 
 ```linux
-ramse@DESKTOP-K6K6E5A MINGW64 /c/Uber-expenses-tracking/code
+db@DESKTOP-K9J6E8I BHJI21 /c/Uber-expenses-tracking/code
 $ docker-compose up airflow-init
 ```
 
@@ -461,7 +461,7 @@ Below is the final DAG for this project:
 
 
  
-![alt text](https://wittline.github.io/uber-expenses-tracking/Images/dag.PNG)
+![alt text](https://diyabodiwala.github.io/uber-expenses-tracking/Images/dag.PNG)
 
 
 ## Visualizing AWS Redshift data using Microsoft Power BI
